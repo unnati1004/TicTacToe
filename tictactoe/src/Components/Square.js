@@ -1,3 +1,5 @@
+import "../style/style.css";
+
 export const Square = ({value,onSquareClick})=>{
    return (
       <button className="square" onClick={onSquareClick}>
