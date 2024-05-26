@@ -35,7 +35,7 @@ export const Todo = () => {
       <h1>Todo Application</h1>
       <input type="text" ref={todoref} />
       <button onClick={addTask}>Add</button>
-      <button onClick={()=>setToggle(true)}>{toggle?"Edit":"View"}</button>
+      <button onClick={()=>setToggle(true)}>{toggle?"View":"Edit"}</button>
       <ul>
       <ul>
         {todoData.map((data) => (
